@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <h2>Our Product List</h2>
+        </div>
+        <div class="second">
+            <table id = "tab" class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="row">
+                    <th scope="row" class="id">1</th>
+                    <td class="name">Football</td>
+                    <td class="price">500</td>
+                    <td><button class= "product">Add to Cart</button></td>
+                  </tr>
+                  <tr class="row">
+                    <th scope="row" class="id">2</th>
+                    <td class="name">Jersey</td>
+                    <td class="price">300</td>
+                    <td><button class= "product">Add to Cart</button></td>
+                  </tr>
+                  <tr class="row">
+                    <th scope="row" class="id">3</th>
+                    <td class="name">Pant</td>
+                    <td class="price">111</td>
+                    <td><button  class= "product">Add to Cart</button></td>
+                  </tr>
+                  <tr class="row">
+                    <th scope="row" class="id">4</th>
+                    <td class="name">Boot</td>
+                    <td class="price">1500</td>
+                    <td><button class= "product">Add to Cart</button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <div class="container">
+    <div class="cart-product">
+      <h2>your products</h2>
+      <table id = "tab2" class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Price</th>
+            <!-- <th scope="col">Quantity</th> -->
+            <th scope="col">Action</th>
+
+          </tr>
+        </thead>
+      </table> 
+        <table class="table">
+          <div class="cart-product">
+            <tr class="cart-item-row">
+              <!-- <td>1</td>
+              <td id="name">Football</td>
+              <td>500</td>
+              <td><button class="btn-danger">Remove</button></td> -->
+            </tr>
+          </div>
+        
+        </table>  
+        
+    </div>
+   </div> 
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
